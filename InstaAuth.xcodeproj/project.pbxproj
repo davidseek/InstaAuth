@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C5D2F9B1DCA2F3800827C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5D2F9A1DCA2F3800827C9E /* AppDelegate.swift */; };
+		6C5D2F9D1DCA2F3800827C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5D2F9C1DCA2F3800827C9E /* ViewController.swift */; };
+		6C5D2FA01DCA2F3800827C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5D2F9E1DCA2F3800827C9E /* Main.storyboard */; };
+		6C5D2FA31DCA2F3800827C9E /* InstaAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C5D2FA11DCA2F3800827C9E /* InstaAuth.xcdatamodeld */; };
+		6C5D2FA51DCA2F3800827C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5D2FA41DCA2F3800827C9E /* Assets.xcassets */; };
+		6C5D2FA81DCA2F3800827C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5D2FA61DCA2F3800827C9E /* LaunchScreen.storyboard */; };
+		C15DAC97C36CC7A8555EB600 /* Pods_InstaAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E907EE3CEECEF6337512B7 /* Pods_InstaAuth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FF7C0E12D29589CA29D2B63 /* Pods-InstaAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaAuth/Pods-InstaAuth.release.xcconfig"; sourceTree = "<group>"; };
+		6C5D2F971DCA2F3800827C9E /* InstaAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5D2F9A1DCA2F3800827C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C5D2F9C1DCA2F3800827C9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C5D2F9F1DCA2F3800827C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C5D2FA21DCA2F3800827C9E /* InstaAuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaAuth.xcdatamodel; sourceTree = "<group>"; };
+		6C5D2FA41DCA2F3800827C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C5D2FA71DCA2F3800827C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C5D2FA91DCA2F3800827C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E907EE3CEECEF6337512B7 /* Pods_InstaAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71B055E81F9284278C4370E /* Pods-InstaAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaAuth/Pods-InstaAuth.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C5D2F941DCA2F3800827C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15DAC97C36CC7A8555EB600 /* Pods_InstaAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483816B60A6E6B337A041D15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D71B055E81F9284278C4370E /* Pods-InstaAuth.debug.xcconfig */,
+				3FF7C0E12D29589CA29D2B63 /* Pods-InstaAuth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C5D2F8E1DCA2F3800827C9E = {
+			isa = PBXGroup;
+			children = (
+				6C5D2F991DCA2F3800827C9E /* InstaAuth */,
+				6C5D2F981DCA2F3800827C9E /* Products */,
+				483816B60A6E6B337A041D15 /* Pods */,
+				BEA6636BB6877E024DDE808B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C5D2F981DCA2F3800827C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C5D2F971DCA2F3800827C9E /* InstaAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C5D2F991DCA2F3800827C9E /* InstaAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6C5D2F9A1DCA2F3800827C9E /* AppDelegate.swift */,
+				6C5D2F9C1DCA2F3800827C9E /* ViewController.swift */,
+				6C5D2F9E1DCA2F3800827C9E /* Main.storyboard */,
+				6C5D2FA41DCA2F3800827C9E /* Assets.xcassets */,
+				6C5D2FA61DCA2F3800827C9E /* LaunchScreen.storyboard */,
+				6C5D2FA91DCA2F3800827C9E /* Info.plist */,
+				6C5D2FA11DCA2F3800827C9E /* InstaAuth.xcdatamodeld */,
+			);
+			path = InstaAuth;
+			sourceTree = "<group>";
+		};
+		BEA6636BB6877E024DDE808B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7E907EE3CEECEF6337512B7 /* Pods_InstaAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C5D2F961DCA2F3800827C9E /* InstaAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C5D2FAC1DCA2F3800827C9E /* Build configuration list for PBXNativeTarget "InstaAuth" */;
+			buildPhases = (
+				CD212FD37E9F306A2A8DB352 /* [CP] Check Pods Manifest.lock */,
+				6C5D2F931DCA2F3800827C9E /* Sources */,
+				6C5D2F941DCA2F3800827C9E /* Frameworks */,
+				6C5D2F951DCA2F3800827C9E /* Resources */,
+				3E2A84B30D167F13A8B0C545 /* [CP] Embed Pods Frameworks */,
+				76F63075E1FC467253B6CEDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaAuth;
+			productName = InstaAuth;
+			productReference = 6C5D2F971DCA2F3800827C9E /* InstaAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C5D2F8F1DCA2F3800827C9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "David Seek";
+				TargetAttributes = {
+					6C5D2F961DCA2F3800827C9E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 69XUZ6HBUE;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C5D2F921DCA2F3800827C9E /* Build configuration list for PBXProject "InstaAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C5D2F8E1DCA2F3800827C9E;
+			productRefGroup = 6C5D2F981DCA2F3800827C9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C5D2F961DCA2F3800827C9E /* InstaAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C5D2F951DCA2F3800827C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5D2FA81DCA2F3800827C9E /* LaunchScreen.storyboard in Resources */,
+				6C5D2FA51DCA2F3800827C9E /* Assets.xcassets in Resources */,
+				6C5D2FA01DCA2F3800827C9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E2A84B30D167F13A8B0C545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaAuth/Pods-InstaAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F63075E1FC467253B6CEDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaAuth/Pods-InstaAuth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD212FD37E9F306A2A8DB352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C5D2F931DCA2F3800827C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5D2F9D1DCA2F3800827C9E /* ViewController.swift in Sources */,
+				6C5D2FA31DCA2F3800827C9E /* InstaAuth.xcdatamodeld in Sources */,
+				6C5D2F9B1DCA2F3800827C9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C5D2F9E1DCA2F3800827C9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C5D2F9F1DCA2F3800827C9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C5D2FA61DCA2F3800827C9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C5D2FA71DCA2F3800827C9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C5D2FAA1DCA2F3800827C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C5D2FAB1DCA2F3800827C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C5D2FAD1DCA2F3800827C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71B055E81F9284278C4370E /* Pods-InstaAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69XUZ6HBUE;
+				INFOPLIST_FILE = InstaAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidseek.InstaAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C5D2FAE1DCA2F3800827C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF7C0E12D29589CA29D2B63 /* Pods-InstaAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69XUZ6HBUE;
+				INFOPLIST_FILE = InstaAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidseek.InstaAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C5D2F921DCA2F3800827C9E /* Build configuration list for PBXProject "InstaAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5D2FAA1DCA2F3800827C9E /* Debug */,
+				6C5D2FAB1DCA2F3800827C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C5D2FAC1DCA2F3800827C9E /* Build configuration list for PBXNativeTarget "InstaAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5D2FAD1DCA2F3800827C9E /* Debug */,
+				6C5D2FAE1DCA2F3800827C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C5D2FA11DCA2F3800827C9E /* InstaAuth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C5D2FA21DCA2F3800827C9E /* InstaAuth.xcdatamodel */,
+			);
+			currentVersion = 6C5D2FA21DCA2F3800827C9E /* InstaAuth.xcdatamodel */;
+			path = InstaAuth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C5D2F8F1DCA2F3800827C9E /* Project object */;
+}
